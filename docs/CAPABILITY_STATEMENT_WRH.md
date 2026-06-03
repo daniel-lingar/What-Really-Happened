@@ -69,6 +69,8 @@ WRH is designed for organizations serving populations affected by trauma, includ
 
 ## NAICS Codes (Suggested Alignment)
 
+- **611710** – Educational Support Services (Primary)
+- **611430** – Professional and Management Development Training
 - **621420** – Outpatient Mental Health and Substance Abuse Centers
 - **624190** – Other Individual and Family Services
 - **541611** – Administrative Management and General Management Consulting Services
@@ -103,7 +105,8 @@ WRH is designed with institutional requirements in mind:
 **Business Type:** Small Business *(assumed – adjust as needed)*  
 **Location:** United States
 
-*(Add UEI, CAGE Code, and certifications if available)*
+**UEI:** HH77KN5AV5X7  
+**CAGE:** 9ZFJ6
 
 ---
 
