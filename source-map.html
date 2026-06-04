@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WRH Source Map</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = { theme: { extend: { colors: { wrhBlack:'#000000', wrhCharcoal:'#1A1A1A', wrhGold:'#D4AF37', wrhWhite:'#FFFFFF', wrhPurple:'#6A0DAD' } } } };
+    </script>
+  </head>
+  <body class="bg-wrhBlack text-wrhWhite antialiased">
+    <header class="border-b border-wrhGold bg-wrhBlack">
+      <div class="mx-auto max-w-7xl px-6 py-10 lg:px-8">
+        <p class="text-sm uppercase tracking-[0.2em] text-wrhGold">WRH Live Deployment</p>
+        <h1 class="mt-3 text-4xl font-bold text-wrhGold md:text-6xl">Source Map</h1>
+        <p class="mt-5 max-w-4xl text-lg leading-8">Hard-line repo architecture: wrh-master-curriculum is read-only source material. What-Really-Happened is the live public deployment / portal layer.</p>
+        <nav class="mt-8 flex flex-wrap gap-3 text-sm font-semibold">
+          <a class="rounded-full border border-wrhGold px-4 py-2 text-wrhGold hover:bg-wrhGold hover:text-wrhBlack" href="./index.html">Capability</a>
+          <a class="rounded-full border border-wrhGold px-4 py-2 text-wrhGold hover:bg-wrhGold hover:text-wrhBlack" href="./curriculum.html">Curriculum</a>
+          <a class="rounded-full border border-wrhGold px-4 py-2 text-wrhGold hover:bg-wrhGold hover:text-wrhBlack" href="./operations.html">Operations</a>
+          <a class="rounded-full border border-wrhPurple bg-wrhPurple px-4 py-2 text-wrhWhite" href="./source-map.html">Source Map</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-7xl space-y-6 px-6 py-10 lg:px-8">
+      <section class="grid gap-5 md:grid-cols-2">
+        <article class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6">
+          <h2 class="text-2xl font-bold text-wrhGold">READ ONLY</h2>
+          <p class="mt-2 text-sm text-wrhPurple">daniel-lingar/wrh-master-curriculum</p>
+          <p class="mt-4 leading-8">This repo is the raw text and curriculum source. It contains the Part I, Part II, Part III, Part IV, docs, new-system rewrite track, and archive-imports materials.</p>
+          <a class="mt-4 inline-block font-semibold text-wrhGold" href="https://github.com/daniel-lingar/wrh-master-curriculum">Open source repo →</a>
+        </article>
+        <article class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6">
+          <h2 class="text-2xl font-bold text-wrhGold">WRITE / UPDATE</h2>
+          <p class="mt-2 text-sm text-wrhPurple">daniel-lingar/What-Really-Happened</p>
+          <p class="mt-4 leading-8">This repo is the live deployment target. It should contain the polished portal architecture, capability statement, navigation, implementation entry points, and public-facing links.</p>
+          <a class="mt-4 inline-block font-semibold text-wrhGold" href="https://github.com/daniel-lingar/What-Really-Happened">Open deployment repo →</a>
+        </article>
+      </section>
+
+      <section class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6">
+        <h2 class="text-2xl font-bold text-wrhGold">Live Portal Pages</h2>
+        <div class="mt-5 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+          <a class="rounded-lg border border-wrhGold bg-wrhBlack p-4 hover:bg-wrhCharcoal" href="./index.html">
+            <h3 class="font-semibold text-wrhGold">Capability</h3>
+            <p class="mt-2 text-sm leading-6">Public front door and buyer-facing capability statement.</p>
+          </a>
+          <a class="rounded-lg border border-wrhGold bg-wrhBlack p-4 hover:bg-wrhCharcoal" href="./curriculum.html">
+            <h3 class="font-semibold text-wrhGold">Curriculum</h3>
+            <p class="mt-2 text-sm leading-6">75-session architecture and new-system rewrite track.</p>
+          </a>
+          <a class="rounded-lg border border-wrhGold bg-wrhBlack p-4 hover:bg-wrhCharcoal" href="./operations.html">
+            <h3 class="font-semibold text-wrhGold">Operations</h3>
+            <p class="mt-2 text-sm leading-6">Part IV operational toolkit and safety documentation links.</p>
+          </a>
+          <a class="rounded-lg border border-wrhPurple bg-wrhBlack p-4 hover:bg-wrhCharcoal" href="./source-map.html">
+            <h3 class="font-semibold text-wrhGold">Source Map</h3>
+            <p class="mt-2 text-sm leading-6">Repo boundary and source-to-deployment map.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6">
+        <h2 class="text-2xl font-bold text-wrhGold">Source-to-Portal Mapping</h2>
+        <div class="mt-5 overflow-hidden rounded-lg border border-wrhGold">
+          <table class="w-full text-left text-sm">
+            <thead class="bg-wrhBlack text-wrhGold">
+              <tr><th class="p-3">Source Repo Location</th><th class="p-3">Live Portal Destination</th><th class="p-3">Purpose</th></tr>
+            </thead>
+            <tbody>
+              <tr class="border-t border-wrhGold"><td class="p-3">README.md</td><td class="p-3">index.html</td><td class="p-3">Capability framing, source-of-truth description, government data.</td></tr>
+              <tr class="border-t border-wrhGold"><td class="p-3">Part-I/index.md</td><td class="p-3">curriculum.html</td><td class="p-3">Sessions 1–26 navigation and summary.</td></tr>
+              <tr class="border-t border-wrhGold"><td class="p-3">Part-II/index.md</td><td class="p-3">curriculum.html</td><td class="p-3">Sessions 27–56 navigation and summary.</td></tr>
+              <tr class="border-t border-wrhGold"><td class="p-3">Part-III/index.md</td><td class="p-3">curriculum.html</td><td class="p-3">Sessions 57–75 navigation and summary.</td></tr>
+              <tr class="border-t border-wrhGold"><td class="p-3">Part-IV/index.md</td><td class="p-3">operations.html</td><td class="p-3">Facilitator toolkit, crisis package, reporting, glossary, pricing, certification, IP.</td></tr>
+              <tr class="border-t border-wrhGold"><td class="p-3">new-system/SESSION-INDEX.md</td><td class="p-3">curriculum.html</td><td class="p-3">Word-for-word facilitator script rewrite tracking.</td></tr>
+              <tr class="border-t border-wrhGold"><td class="p-3">SUMMARY.md</td><td class="p-3">operations.html / source-map.html</td><td class="p-3">Operational navigation and safety-first entry points.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-wrhGold bg-wrhBlack">
+      <div class="mx-auto max-w-7xl px-6 py-6 text-sm text-wrhWhite lg:px-8">© 2026 Capitol Contracts LLC · Source map for WRH deployment architecture.</div>
+    </footer>
+  </body>
+</html>
