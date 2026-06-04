@@ -14,35 +14,42 @@
       <div class="mx-auto max-w-7xl px-6 py-10 lg:px-8">
         <p class="text-sm uppercase tracking-[0.2em] text-wrhGold">WRH Live Deployment</p>
         <h1 class="mt-3 text-4xl font-bold text-wrhGold md:text-6xl">Source Map</h1>
-        <p class="mt-5 max-w-4xl text-lg leading-8">Hard-line repo architecture: wrh-master-curriculum is read-only source material. What-Really-Happened is the live public deployment / portal layer.</p>
+        <p class="mt-5 max-w-4xl text-lg leading-8">Hard-line repo architecture: wrh-master-curriculum is raw curriculum source, What-Really-Happened is the live public deployment portal, and WRH-PILOT-OPERATING---EVALUATION is the pilot operations and evidence layer.</p>
         <nav class="mt-8 flex flex-wrap gap-3 text-sm font-semibold">
           <a class="rounded-full border border-wrhGold px-4 py-2 text-wrhGold hover:bg-wrhGold hover:text-wrhBlack" href="./index.html">Capability</a>
           <a class="rounded-full border border-wrhGold px-4 py-2 text-wrhGold hover:bg-wrhGold hover:text-wrhBlack" href="./curriculum.html">Curriculum</a>
           <a class="rounded-full border border-wrhGold px-4 py-2 text-wrhGold hover:bg-wrhGold hover:text-wrhBlack" href="./operations.html">Operations</a>
+          <a class="rounded-full border border-wrhGold px-4 py-2 text-wrhGold hover:bg-wrhGold hover:text-wrhBlack" href="./risk-governance.html">Risk Governance</a>
           <a class="rounded-full border border-wrhPurple bg-wrhPurple px-4 py-2 text-wrhWhite" href="./source-map.html">Source Map</a>
         </nav>
       </div>
     </header>
 
     <main class="mx-auto max-w-7xl space-y-6 px-6 py-10 lg:px-8">
-      <section class="grid gap-5 md:grid-cols-2">
+      <section class="grid gap-5 md:grid-cols-3">
         <article class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6">
-          <h2 class="text-2xl font-bold text-wrhGold">READ ONLY</h2>
+          <h2 class="text-2xl font-bold text-wrhGold">READ ONLY SOURCE</h2>
           <p class="mt-2 text-sm text-wrhPurple">daniel-lingar/wrh-master-curriculum</p>
           <p class="mt-4 leading-8">This repo is the raw text and curriculum source. It contains the Part I, Part II, Part III, Part IV, docs, new-system rewrite track, and archive-imports materials.</p>
           <a class="mt-4 inline-block font-semibold text-wrhGold" href="https://github.com/daniel-lingar/wrh-master-curriculum">Open source repo →</a>
         </article>
         <article class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6">
-          <h2 class="text-2xl font-bold text-wrhGold">WRITE / UPDATE</h2>
+          <h2 class="text-2xl font-bold text-wrhGold">WRITE / UPDATE PORTAL</h2>
           <p class="mt-2 text-sm text-wrhPurple">daniel-lingar/What-Really-Happened</p>
-          <p class="mt-4 leading-8">This repo is the live deployment target. It should contain the polished portal architecture, capability statement, navigation, implementation entry points, and public-facing links.</p>
+          <p class="mt-4 leading-8">This repo is the live deployment target. It contains the polished portal architecture, capability statement, curriculum navigation, operations, risk governance, and public-facing links.</p>
           <a class="mt-4 inline-block font-semibold text-wrhGold" href="https://github.com/daniel-lingar/What-Really-Happened">Open deployment repo →</a>
+        </article>
+        <article class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6">
+          <h2 class="text-2xl font-bold text-wrhGold">PILOT EVIDENCE LAYER</h2>
+          <p class="mt-2 text-sm text-wrhPurple">daniel-lingar/WRH-PILOT-OPERATING---EVALUATION</p>
+          <p class="mt-4 leading-8">This repo contains the pilot operating forms, pre-registered evaluation framework, field logs, site performance scoring, final report, and revision decision memo.</p>
+          <a class="mt-4 inline-block font-semibold text-wrhGold" href="https://daniel-lingar.github.io/WRH-PILOT-OPERATING---EVALUATION/">Open pilot portal →</a>
         </article>
       </section>
 
       <section class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6">
         <h2 class="text-2xl font-bold text-wrhGold">Live Portal Pages</h2>
-        <div class="mt-5 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+        <div class="mt-5 grid gap-4 md:grid-cols-2 lg:grid-cols-5">
           <a class="rounded-lg border border-wrhGold bg-wrhBlack p-4 hover:bg-wrhCharcoal" href="./index.html">
             <h3 class="font-semibold text-wrhGold">Capability</h3>
             <p class="mt-2 text-sm leading-6">Public front door and buyer-facing capability statement.</p>
@@ -54,6 +61,10 @@
           <a class="rounded-lg border border-wrhGold bg-wrhBlack p-4 hover:bg-wrhCharcoal" href="./operations.html">
             <h3 class="font-semibold text-wrhGold">Operations</h3>
             <p class="mt-2 text-sm leading-6">Part IV operational toolkit and safety documentation links.</p>
+          </a>
+          <a class="rounded-lg border border-wrhGold bg-wrhBlack p-4 hover:bg-wrhCharcoal" href="./risk-governance.html">
+            <h3 class="font-semibold text-wrhGold">Risk Governance</h3>
+            <p class="mt-2 text-sm leading-6">Site readiness, support bridge, and pilot evaluation link.</p>
           </a>
           <a class="rounded-lg border border-wrhPurple bg-wrhBlack p-4 hover:bg-wrhCharcoal" href="./source-map.html">
             <h3 class="font-semibold text-wrhGold">Source Map</h3>
@@ -67,16 +78,16 @@
         <div class="mt-5 overflow-hidden rounded-lg border border-wrhGold">
           <table class="w-full text-left text-sm">
             <thead class="bg-wrhBlack text-wrhGold">
-              <tr><th class="p-3">Source Repo Location</th><th class="p-3">Live Portal Destination</th><th class="p-3">Purpose</th></tr>
+              <tr><th class="p-3">Source / Repo Location</th><th class="p-3">Live Destination</th><th class="p-3">Purpose</th></tr>
             </thead>
             <tbody>
-              <tr class="border-t border-wrhGold"><td class="p-3">README.md</td><td class="p-3">index.html</td><td class="p-3">Capability framing, source-of-truth description, government data.</td></tr>
-              <tr class="border-t border-wrhGold"><td class="p-3">Part-I/index.md</td><td class="p-3">curriculum.html</td><td class="p-3">Sessions 1–26 navigation and summary.</td></tr>
-              <tr class="border-t border-wrhGold"><td class="p-3">Part-II/index.md</td><td class="p-3">curriculum.html</td><td class="p-3">Sessions 27–56 navigation and summary.</td></tr>
-              <tr class="border-t border-wrhGold"><td class="p-3">Part-III/index.md</td><td class="p-3">curriculum.html</td><td class="p-3">Sessions 57–75 navigation and summary.</td></tr>
-              <tr class="border-t border-wrhGold"><td class="p-3">Part-IV/index.md</td><td class="p-3">operations.html</td><td class="p-3">Facilitator toolkit, crisis package, reporting, glossary, pricing, certification, IP.</td></tr>
-              <tr class="border-t border-wrhGold"><td class="p-3">new-system/SESSION-INDEX.md</td><td class="p-3">curriculum.html</td><td class="p-3">Word-for-word facilitator script rewrite tracking.</td></tr>
-              <tr class="border-t border-wrhGold"><td class="p-3">SUMMARY.md</td><td class="p-3">operations.html / source-map.html</td><td class="p-3">Operational navigation and safety-first entry points.</td></tr>
+              <tr class="border-t border-wrhGold"><td class="p-3">wrh-master-curriculum / README.md</td><td class="p-3">What-Really-Happened / index.html</td><td class="p-3">Capability framing, source-of-truth description, government data.</td></tr>
+              <tr class="border-t border-wrhGold"><td class="p-3">wrh-master-curriculum / Part-I/index.md</td><td class="p-3">What-Really-Happened / curriculum.html</td><td class="p-3">Sessions 1–26 navigation and summary.</td></tr>
+              <tr class="border-t border-wrhGold"><td class="p-3">wrh-master-curriculum / Part-II/index.md</td><td class="p-3">What-Really-Happened / curriculum.html</td><td class="p-3">Sessions 27–56 navigation and summary.</td></tr>
+              <tr class="border-t border-wrhGold"><td class="p-3">wrh-master-curriculum / Part-III/index.md</td><td class="p-3">What-Really-Happened / curriculum.html</td><td class="p-3">Sessions 57–75 navigation and summary.</td></tr>
+              <tr class="border-t border-wrhGold"><td class="p-3">wrh-master-curriculum / Part-IV/index.md</td><td class="p-3">What-Really-Happened / operations.html</td><td class="p-3">Facilitator toolkit, crisis package, reporting, glossary, pricing, certification, IP.</td></tr>
+              <tr class="border-t border-wrhGold"><td class="p-3">What-Really-Happened / risk-governance.html</td><td class="p-3">Live risk governance page</td><td class="p-3">Site readiness, Closed-Loop Support Bridge, and pilot evaluation connection.</td></tr>
+              <tr class="border-t border-wrhGold"><td class="p-3">WRH-PILOT-OPERATING---EVALUATION</td><td class="p-3">Pilot portal and package index</td><td class="p-3">Pre-registered pilot evaluation, field forms, site review, final report, and revision decision memo.</td></tr>
             </tbody>
           </table>
         </div>
