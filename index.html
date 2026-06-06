@@ -1,94 +1,209 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>What Really Happened™ | Capability</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WRH Master Curriculum | Capability Statement</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-      tailwind.config = { theme: { extend: { colors: { wrhBlack:'#000000', wrhCharcoal:'#1A1A1A', wrhGold:'#D4AF37', wrhWhite:'#FFFFFF', wrhPurple:'#6A0DAD' } } } };
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              wrhBlack: "#000000",
+              wrhCharcoal: "#1A1A1A",
+              wrhGold: "#D4AF37",
+              wrhWhite: "#FFFFFF",
+              wrhPurple: "#6A0DAD",
+            },
+          },
+        },
+      };
     </script>
-  </head>
-  <body class="bg-wrhBlack text-wrhWhite antialiased">
+    <style>
+      body { font-family: ui-sans-serif, system-ui, sans-serif; }
+      .border-gold { border-color: #D4AF37; }
+      .text-gold { color: #D4AF37; }
+    </style>
+</head>
+<body class="bg-wrhBlack text-wrhWhite">
     <header class="border-b border-wrhGold bg-wrhBlack">
-      <div class="mx-auto max-w-7xl px-6 py-10 lg:px-8">
-        <p class="text-sm uppercase tracking-[0.2em] text-wrhGold">What Really Happened™ (WRH)</p>
-        <h1 class="mt-3 text-4xl font-bold text-wrhGold md:text-6xl">Capability Statement</h1>
-        <p class="mt-5 max-w-4xl text-lg leading-8">Non-clinical trauma education, curriculum architecture, implementation support, risk governance, and pilot evaluation infrastructure for courts, agencies, veteran-serving programs, and community partners.</p>
-        <nav class="mt-8 flex flex-wrap gap-3 text-sm font-semibold">
-          <a class="rounded-full border border-wrhGold bg-wrhGold px-4 py-2 text-wrhBlack" href="./index.html">Capability</a>
-          <a class="rounded-full border border-wrhGold px-4 py-2 text-wrhGold hover:bg-wrhGold hover:text-wrhBlack" href="./curriculum.html">Curriculum</a>
-          <a class="rounded-full border border-wrhGold px-4 py-2 text-wrhGold hover:bg-wrhGold hover:text-wrhBlack" href="./operations.html">Operations</a>
-          <a class="rounded-full border border-wrhGold px-4 py-2 text-wrhGold hover:bg-wrhGold hover:text-wrhBlack" href="./risk-governance.html">Risk Governance</a>
-          <a class="rounded-full border border-wrhPurple px-4 py-2 text-wrhWhite hover:bg-wrhPurple" href="./source-map.html">Source Map</a>
-        </nav>
+      <div class="mx-auto max-w-7xl px-6 py-12 lg:px-8">
+        <p class="text-sm uppercase tracking-[0.2em] text-wrhGold">What Really Happened (WRH)</p>
+        <h1 class="mt-3 text-3xl font-bold md:text-5xl text-wrhGold">Master Curriculum Capability Statement</h1>
+        <p class="mt-4 max-w-3xl text-wrhWhite">
+          A 75-session non-clinical psychoeducational curriculum designed for federal procurement, institutional pilots, and recovery-support environments. 
+          <strong>Not Therapy. No Disclosure. Non-Clinical Education.</strong>
+        </p>
       </div>
     </header>
 
-    <main class="mx-auto max-w-7xl space-y-6 px-6 py-10 lg:px-8">
-      <section class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6">
-        <h2 class="text-2xl font-bold text-wrhGold">Operational Boundary</h2>
-        <p class="mt-3 leading-8">WRH is a structured, plain-language, non-clinical trauma education system. It does not provide therapy, diagnosis, clinical treatment, medical advice, legal advice, or crisis response. WRH does not require, request, or encourage participants to disclose personal trauma history.</p>
-      </section>
+    <main class="mx-auto grid max-w-7xl gap-6 px-6 py-10 lg:grid-cols-12 lg:px-8">
+      <!-- Sidebar -->
+      <aside class="lg:col-span-4 xl:col-span-3">
+        <div class="sticky top-6 space-y-5 rounded-xl border border-wrhGold bg-wrhCharcoal p-6 shadow-sm">
+          <section>
+            <h2 class="text-lg font-semibold text-wrhGold">Government Data</h2>
+            <dl class="mt-3 space-y-2 text-sm">
+              <div>
+                <dt class="font-medium text-wrhPurple">UEI</dt>
+                <dd class="text-wrhWhite font-mono">HH77KN5AV5X7</dd>
+              </div>
+              <div>
+                <dt class="font-medium text-wrhPurple">CAGE</dt>
+                <dd class="text-wrhWhite font-mono">9ZFJ6</dd>
+              </div>
+            </dl>
+          </section>
 
-      <section class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-        <article class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6">
-          <h2 class="text-xl font-bold text-wrhGold">Vendor Identity</h2>
-          <p class="mt-3 leading-7">Delivered by Capitol Contracts LLC as a curriculum development, training, and implementation-support provider.</p>
-          <ul class="mt-4 list-disc space-y-2 pl-5 text-sm leading-6">
-            <li><strong class="text-wrhPurple">UEI:</strong> HH77KN5AV5X7</li>
-            <li><strong class="text-wrhPurple">CAGE:</strong> 9ZFJ6</li>
-            <li><strong class="text-wrhPurple">Primary NAICS:</strong> 611710 / 611430 / 541611 / 624190</li>
-          </ul>
-        </article>
-        <article class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6">
-          <h2 class="text-xl font-bold text-wrhGold">Curriculum Architecture</h2>
-          <p class="mt-3 leading-7">The WRH master curriculum is organized as a 75-session system with a facilitator standardization toolkit and operational support materials.</p>
-          <a class="mt-4 inline-block font-semibold text-wrhGold" href="./curriculum.html">Open Curriculum Architecture →</a>
-        </article>
-        <article class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6">
-          <h2 class="text-xl font-bold text-wrhGold">Risk Governance</h2>
-          <p class="mt-3 leading-7">Deployment is controlled by readiness, not contract status. Site readiness, support pathways, and pilot evaluation are part of the WRH safety architecture.</p>
-          <a class="mt-4 inline-block font-semibold text-wrhGold" href="./risk-governance.html">Open Risk Governance →</a>
-        </article>
-      </section>
+          <section>
+            <h3 class="text-base font-semibold text-wrhGold">Primary NAICS</h3>
+            <ul class="mt-2 list-disc space-y-1 pl-5 text-sm text-wrhWhite">
+              <li class="font-bold">611710 — Educational Support Services</li>
+              <li>611430 — Prof. & Mgmt Development Training</li>
+              <li>621420 — Outpatient Mental Health Centers</li>
+              <li>624190 — Individual and Family Services</li>
+            </ul>
+          </section>
 
-      <section class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6">
-        <h2 class="text-2xl font-bold text-wrhGold">WRH System Layers</h2>
-        <div class="mt-5 grid gap-4 md:grid-cols-3">
-          <div class="rounded-lg border border-wrhGold bg-wrhBlack p-4">
-            <h3 class="font-semibold text-wrhGold">1. Curriculum Source</h3>
-            <p class="mt-2 text-sm leading-6">Raw curriculum, session architecture, facilitator materials, and source documentation.</p>
-            <a class="mt-3 inline-block text-sm font-semibold text-wrhGold" href="https://github.com/daniel-lingar/wrh-master-curriculum">Open Source Repo →</a>
-          </div>
-          <div class="rounded-lg border border-wrhGold bg-wrhBlack p-4">
-            <h3 class="font-semibold text-wrhGold">2. Live Deployment Portal</h3>
-            <p class="mt-2 text-sm leading-6">Public-facing capability, curriculum, operations, risk governance, and source map.</p>
-            <a class="mt-3 inline-block text-sm font-semibold text-wrhGold" href="./source-map.html">Open Source Map →</a>
-          </div>
-          <div class="rounded-lg border border-wrhGold bg-wrhBlack p-4">
-            <h3 class="font-semibold text-wrhGold">3. Pilot Evidence Layer</h3>
-            <p class="mt-2 text-sm leading-6">Pilot framework, field forms, activation logs, support bridge logs, site performance scoring, final report, and revision memo.</p>
-            <a class="mt-3 inline-block text-sm font-semibold text-wrhGold" href="https://daniel-lingar.github.io/WRH-PILOT-OPERATING---EVALUATION/">Open Pilot Package →</a>
-          </div>
+          <section>
+            <h3 class="text-base font-semibold text-wrhGold">Procurement Focus</h3>
+            <ul class="mt-2 list-disc space-y-1 pl-5 text-sm text-wrhWhite">
+              <li>Department of Veterans Affairs (VA)</li>
+              <li>Department of Defense (DoD)</li>
+              <li>Justice & Reentry Programs</li>
+              <li>SAMHSA-aligned Pilot Programs</li>
+            </ul>
+          </section>
         </div>
-      </section>
+      </aside>
 
-      <section class="grid gap-5 md:grid-cols-2">
-        <article class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6">
-          <h2 class="text-2xl font-bold text-wrhGold">Pilot Operating & Evaluation Package</h2>
-          <p class="mt-3 leading-8">WRH uses a separate pilot evidence layer to measure implementation, facilitator fidelity, activation events, support bridge performance, unresolved handoffs, site performance, and required revisions before expansion.</p>
-          <a class="mt-4 inline-block rounded-full border border-wrhGold px-5 py-3 font-semibold text-wrhGold hover:bg-wrhGold hover:text-wrhBlack" href="https://daniel-lingar.github.io/WRH-PILOT-OPERATING---EVALUATION/">Open Pilot Portal</a>
-        </article>
-        <article class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6">
-          <h2 class="text-2xl font-bold text-wrhGold">Claims Boundary</h2>
-          <p class="mt-3 leading-8">WRH materials support operational, educational, implementation, fidelity, and readiness findings. They do not support claims that WRH treats PTSD, prevents suicide, treats addiction, reduces clinical symptoms, replaces licensed care, or proves clinical effectiveness.</p>
-        </article>
-      </section>
+      <!-- Main Content Area -->
+      <div class="space-y-6 lg:col-span-8 xl:col-span-9">
+        
+        <!-- Curriculum Architecture -->
+        <section class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6 shadow-sm">
+          <h2 class="text-2xl font-bold text-wrhGold">Master Curriculum Architecture</h2>
+          <p class="mt-2 text-wrhWhite">
+            The WRH Master Curriculum is organized into three specialized parts and a facilitator toolkit, totaling 76 operational sessions.
+          </p>
+          <div class="mt-6 space-y-4">
+            <div class="rounded-lg border border-wrhGold bg-wrhBlack p-4">
+              <h3 class="font-bold text-wrhGold">Part I: The System Logic Map (Sessions 1–26)</h3>
+              <p class="text-sm mt-1">Focus: Foundational survival laws, pattern recognition, and nervous-system adaptation. Teaches the "Laws of Survival" as physiological wiring rather than character flaws.</p>
+            </div>
+            <div class="rounded-lg border border-wrhGold bg-wrhBlack p-4">
+              <h3 class="font-bold text-wrhGold">Part II: The Core Operational Journey (Sessions 27–56)</h3>
+              <p class="text-sm mt-1">Focus: Mechanical loops, wiring patterns, and biological programs. Provides practical regulation tools and behavioral interruption strategies for pilot environments.</p>
+            </div>
+            <div class="rounded-lg border border-wrhGold bg-wrhBlack p-4">
+              <h3 class="font-bold text-wrhGold">Part III: Advanced System Specialization (Sessions 57–75)</h3>
+              <p class="text-sm mt-1">Focus: Institutional misreadings, relapse/collapse logic, and long-term accountability. Analyzes cross-system integration and multi-system engagement friction.</p>
+            </div>
+            <div class="rounded-lg border border-wrhGold bg-wrhBlack p-4">
+              <h3 class="font-bold text-wrhGold">Part IV: Facilitator Standardization Toolkit</h3>
+              <p class="text-sm mt-1">Includes: Session 76 (Crisis Response), Master Glossary, Facilitator Scripts, Participant Workbooks, and the Universal Crisis Package.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Pricing Tiers -->
+        <section class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6 shadow-sm overflow-hidden">
+          <h2 class="text-2xl font-bold text-wrhGold mb-4">Tiered Service Offerings</h2>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm border-collapse">
+              <thead>
+                <tr class="border-b border-wrhGold text-wrhGold uppercase tracking-wider">
+                  <th class="py-3 px-4">Service Tier</th>
+                  <th class="py-3 px-4">Sessions</th>
+                  <th class="py-3 px-4">Core Focus Area</th>
+                  <th class="py-3 px-4 text-right">FFP Per Cohort</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-wrhGold/30">
+                <tr>
+                  <td class="py-4 px-4 font-bold">Foundation</td>
+                  <td class="py-4 px-4">1–26</td>
+                  <td class="py-4 px-4">System Logic Map & Laws of Survival</td>
+                  <td class="py-4 px-4 text-right font-mono text-wrhGold">$18,500</td>
+                </tr>
+                <tr>
+                  <td class="py-4 px-4 font-bold">Core</td>
+                  <td class="py-4 px-4">1–56</td>
+                  <td class="py-4 px-4">Operational Journey & Pilot Program</td>
+                  <td class="py-4 px-4 text-right font-mono text-wrhGold">$32,000</td>
+                </tr>
+                <tr>
+                  <td class="py-4 px-4 font-bold">Master</td>
+                  <td class="py-4 px-4">1–76</td>
+                  <td class="py-4 px-4">Full Program & Facilitator Toolkit</td>
+                  <td class="py-4 px-4 text-right font-mono text-wrhGold">$48,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="mt-4 text-xs text-wrhWhite/70 italic">* Estimated Firm-Fixed-Price for cohorts of 8–12 participants. Final pricing subject to contract requirements.</p>
+        </section>
+
+        <!-- Core Philosophy -->
+        <section class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6 shadow-sm">
+          <h2 class="text-2xl font-bold text-wrhGold">Core Philosophy</h2>
+          <div class="mt-4 grid gap-6 md:grid-cols-2">
+            <blockquote class="border-l-4 border-wrhGold pl-4 italic">
+              "People cannot interrupt a pattern they have never been taught to see."
+            </blockquote>
+            <p class="text-sm">
+              WRH reframes survival responses as predictable patterns rather than character defects. By teaching the "machine code" of trauma, we empower participants to see the wiring and interrupt the loops without requiring personal disclosure.
+            </p>
+          </div>
+        </section>
+
+        <!-- Core Competencies -->
+        <section class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6 shadow-sm">
+          <h2 class="text-2xl font-bold text-wrhGold">Core Competencies</h2>
+          <ul class="mt-3 grid list-disc gap-2 pl-5 text-wrhWhite md:grid-cols-2">
+            <li>75-Session Master Curriculum Development</li>
+            <li>System Logic Translation (Plain-Language Neurobiology)</li>
+            <li>Facilitator Standardization & Certification Training</li>
+            <li>Institutional Risk Mitigation & Safety Protocols</li>
+            <li>Veteran-Centric Behavioral Health Education</li>
+            <li>Pilot Implementation & Outcome Measurement</li>
+          </ul>
+        </section>
+
+        <!-- Programmatic Pillars -->
+        <section class="rounded-xl border border-wrhGold bg-wrhCharcoal p-6 shadow-sm">
+          <h2 class="text-2xl font-bold text-wrhGold">Programmatic Pillars</h2>
+          <div class="mt-4 grid gap-4 md:grid-cols-3">
+            <article class="rounded-lg border border-wrhGold bg-wrhBlack p-4">
+              <h3 class="font-semibold text-wrhGold">1) System Logic Map</h3>
+              <p class="mt-2 text-xs text-wrhWhite">
+                Translating complex trauma responses into plain-language survival laws.
+              </p>
+            </article>
+            <article class="rounded-lg border border-wrhGold bg-wrhBlack p-4">
+              <h3 class="font-semibold text-wrhGold">2) Operational Journey</h3>
+              <p class="mt-2 text-xs text-wrhWhite">
+                Structured, facilitator-led delivery for high-fidelity pilot environments.
+              </p>
+            </article>
+            <article class="rounded-lg border border-wrhGold bg-wrhBlack p-4">
+              <h3 class="font-semibold text-wrhGold">3) Risk Mitigation</h3>
+              <p class="mt-2 text-xs text-wrhWhite">
+                Integrated safety protocols and crisis response frameworks (Session 76).
+              </p>
+            </article>
+          </div>
+        </section>
+
+      </div>
     </main>
 
     <footer class="border-t border-wrhGold bg-wrhBlack">
-      <div class="mx-auto max-w-7xl px-6 py-6 text-sm text-wrhWhite lg:px-8">© 2026 Capitol Contracts LLC · What Really Happened™ live deployment portal.</div>
+      <div class="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-8 text-sm text-wrhWhite md:flex-row md:items-center md:justify-between lg:px-8">
+        <p>© 2026 Capitol Contracts LLC. What Really Happened (WRH) Master Curriculum.</p>
+        <p class="text-wrhGold font-semibold uppercase tracking-widest">Federal Ready System</p>
+      </div>
     </footer>
-  </body>
+</body>
 </html>
